@@ -1,5 +1,6 @@
-function Dog(){
+function Dog(weight){
 	this.stomach = [];
+	this.weight = weight;
 }
 
 Dog.prototype.eat = function(cat) {
