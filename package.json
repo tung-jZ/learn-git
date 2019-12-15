@@ -1,0 +1,14 @@
+{
+  "name": "hoc_git",
+  "version": "1.0.0",
+  "description": "học git",
+  "main": "Cat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
+}

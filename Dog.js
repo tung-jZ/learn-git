@@ -1,4 +1,7 @@
-function Dog(weight){
+var chalk = require('chalk');
+
+function Dog(name, weight){
+	this.name  = name;
 	this.stomach = [];
 	this.weight = weight;
 }
@@ -6,6 +9,12 @@ function Dog(weight){
 Dog.prototype.eat = function(cat) {
 	this.stomach.push(cat);
 };
+
+Dog.prototype.sayHi = function() {
+	console.log('Hi! I am a Dog. My name is ' +  chalk.bgCyan.white(this.name));
+}
+
+module.exports = Dog;
 
 /*
 
