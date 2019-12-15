@@ -1,2 +1,3 @@
 học git
 
+learn git
